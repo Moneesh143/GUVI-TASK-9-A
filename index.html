@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate</title>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <div class="heading-pos">
+      <h1 class="heading" id="title">Calculator</h1>
+    </div>
+
+    <div class="container" >
+   
+        <div class="calculator"> 
+
+   <input type="text" placeholder="0" id="result">
+   <button id="clear" onclick="Clear()">Clear</button>
+   <button onclick="Delete()">Dlt</button>
+   <button onclick="display('%')">%</button>
+   <button onclick="display('/')">/</button>
+   <button class="bg-color" onclick="display('7')">7</button>
+   <button class="bg-color" onclick="display('8')">8</button>
+   <button class="bg-color" onclick="display('9')">9</button>
+   <button onclick="display('*')">*</button>
+   <button class="bg-color" onclick="display('4')">4</button>
+   <button class="bg-color" onclick="display('5')">5</button>
+   <button class="bg-color" onclick="display('6')">6</button>
+   <button onclick="display('-')"  id="subtract">-</button>
+   <button class="bg-color" onclick="display('1')" id="1">1</button>
+   <button class="bg-color" onclick="display('2')" id="2">2</button>
+   <button class="bg-color" onclick="display('3')" id="3">3</button>
+   <button onclick="display('+')" id="add">+</button>
+   <button onclick="display('.')">.</button>
+   <button class="bg-color" onclick="display('0')">0</button>
+   <button id="equal" onclick="Calculate('')">=</button>
+
+</div>
+
+
+
+
+
+<script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <script src="script.js"></script>
+<br>
+    <div class="des" ><p id="description">
+   
+       I create a calculator,using DOM manipulation. <br>
+        The result is displayed by creating an input tag in HTML and styling it with a stylesheet. <br>
+        Within the DOM, a variable is stored, and its value is retrieved using getElementById. <br>
+         <br>
+        </p> <br></div>
+  </body>
+</html>
